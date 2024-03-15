@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #111;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 20px 0;
+            height: 65px;
+        }
+
+        .navbar h1 {
+            float: left;
+        }
+
+        .navbar nav {
+            float: right;
+        }
+
+        .navbar ul {
+            list-style: none;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .hero {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .key-details {
+            background-color: #333;
+            padding: 80px 0;
+            color: #fff;
+            text-align: center;
+        }
+
+        .key-details .box {
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        .key-details .box h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        a{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <strong>Bost</strong>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/create">Create</a></li>
+                    <li><a href="/manage">Account</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to Bost</h2>
+            <p>Bost is a one-page website hosting platform to use for completely free.</p>
+        </div>
+    </section>
+
+    <section class="key-details">
+        <div class="container">
+            <div class="box">
+                <h3>Easy to Use</h3>
+                <p>Bost is very easy to use. All you do is click the create button at the top, paste in HTML (or even just text), assign an account (you don't need to), then upload it!</p>
+            </div>
+            <div class="box">
+                <h3>Open Source</h3>
+                <p>Bost is completely open source on GitHub! You can check the source code out <a href="https://github.com/thepython555/bost">here</a>.</p>
+            </div>
+            <div class="box">
+                <h3>Don't know how to write HTML?</h3>
+                <p>You can just write text! Bost will detect if it's text or not and put it on the appropriate template.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> dumorando creations LLC. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
